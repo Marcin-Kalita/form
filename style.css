@@ -24,6 +24,7 @@ html {
     width: 100%;
   }
 
-  p {
-    display: block;
+  .form__fieldset {
+    display: flex;
+    flex-direction: column;
   }

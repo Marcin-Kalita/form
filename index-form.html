@@ -24,8 +24,8 @@
             <input class="form__item" placeholder="enter your last name" name="lastName" id="lastName">
           </p>
           <p>
-          <label for="favoriteNumber">favorite number:</label>
-          <input class="form__item" type="number" placeholder="your favorite number" name="favoriteNumber" id="favoriteNumber">
+          <label for="favouriteNumber">favourite number:</label>
+          <input class="form__item" type="number" placeholder="your favourite number" name="favouriteNumber" id="favouriteNumber">
         </p>
         <p>
           <label for="phoneNumber">phone number:</label>
@@ -50,9 +50,26 @@
           <p>
             <label for="yourStory">your story:</label>
             <textarea class="form__item" placeholder="your story is .." name="yourStory" id="yourStory" cols="30" rows="10"></textarea>
-        </p>
+          </p>
+          <p>
+          <fieldset class="form__fieldset">
+            <legend>favourite ice Cream</legend>
+            <label>
+              <input name="iceCream" type="radio" value="chocolate"> chocolate</label>
+              <label>
+                <input name="iceCream" type="radio" value="lemon"> lemon</label>
+                <label>
+                  <input name="iceCream" type="radio" value="mango"> mango</label>
+                  <label>
+                    <input name="iceCream" type="radio" value=" raspberry"> raspberry</label>
+          </fieldset>
+          </p>
+          <p>
+           <label>range:</label>
+             <input type="range" name="range" value="range" min="0" max="100" step="10">
+
+          </p>
         </form> 
-     
     </main>
   </body>
 </html>
