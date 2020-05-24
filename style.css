@@ -23,3 +23,7 @@ html {
   .form__item {
     width: 100%;
   }
+
+  p {
+    display: block;
+  }
