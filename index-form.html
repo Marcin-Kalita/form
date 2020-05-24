@@ -14,7 +14,15 @@
     </header>
        <main class="main">
         <h2 class="head">Form playground</h2>     
-        <form action ="https://dev.cotenfrontend.pl" class="form">
+        <form action ="https://dev.cotenfrontend.pl" method="POST" class="form">
+          <p>
+            <label for="name">Name:</label>
+            <input class="form__item"placeholder="enter your name" name="name" id="name">
+            </p>
+            <p>
+              <label for="riddle">riddle:</label>
+              <input class="form__item"placeholder="enter your name" name="riddle" id="riddle">
+              </p>
           <p>
           <label for="firstName">first Name:</label>
           <input class="form__item"placeholder="enter your name" name="firstName" id="firstName">
@@ -53,7 +61,7 @@
           </p>
           <p>
           <fieldset class="form__fieldset">
-            <legend>favourite ice Cream</legend>
+            <legend>favourite ice cream</legend>
             <label>
               <input name="iceCream" type="radio" value="chocolate"> chocolate</label>
               <label>
@@ -67,7 +75,11 @@
           <p>
            <label>range:</label>
              <input type="range" name="range" value="range" min="0" max="100" step="10">
-
+          </p>
+          <p>
+            <label>           
+              <input type="submit" value="send">
+            </label>
           </p>
         </form> 
     </main>
