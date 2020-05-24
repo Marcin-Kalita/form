@@ -17,7 +17,7 @@
         <form action ="https://dev.cotenfrontend.pl" method="POST" class="form">
           <p>
           <label for="firstName">first Name:</label>
-          <input class="form__item"placeholder="enter your name" name="firstName" id="firstName">
+          <input class="form__item" placeholder="enter your name" name="firstName" id="firstName">
           </p>
           <p>
             <label for="lastName">Last name:</label>
@@ -32,19 +32,19 @@
           <input class="form__item" type="tel" placeholder="your phone number" name="phone number" id="phoneNumber">
         </p>
         <p>
-          <label for="e-mail">e-mail:</label>
-          <input class="form__item" type="e-mail" placeholder="your e-mail" name="mail" id="mail">
+          <label for="email">e-mail:</label>
+          <input class="form__item" placeholder="email" type="email" name="email" id="email">
         </p>
         <p>
           <fieldset>
             <legend>Address</legend>
             <p>
             <label for="streetName">street name:</label>
-            <input class="form__item" type="street" placeholder="your street name" name="street-name" id="street-name">
+            <input class="form__item" type="street" name="streetName" id="streetName">
             </p>
             <p>
               <label for="city">city:</label>
-              <input class="form__item" type="city" placeholder="your city" name="city" id="city">
+              <input class="form__item" type="city" name="city" id="city">
               </p>
           </fieldset>
           <p>
@@ -52,7 +52,7 @@
             <textarea class="form__item" placeholder="your story is .." name="yourStory" id="yourStory" cols="30" rows="10"></textarea>
           </p>
           <p>
-            <label for="best music artist">your best music artist</label>
+            <label>your best music artist</label>
             <select>
               <option value="artist-1">Michael Jackson</option>
               <option value="artist-2">Queen</option>
@@ -74,15 +74,13 @@
                   <label>
                     <input name="iceCream" type="radio" value=" raspberry"> raspberry</label>
           </fieldset>
-          </p>
           <p>
            <label>range:</label>
-             <input type="range" name="range" value="range" min="0" max="100" step="10">
+             <input type="range" name="range" id="points" min="0" max="100" step="10">
           </p>
           <p>
-            <label>
-              <input type="checkbox" id="iagree"> I agree</input>
-            </label>
+            <label>I agree</label>
+              <input type="checkbox" id="iagree">
           </p>
           <p>
             <label class="check">           
