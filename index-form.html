@@ -16,14 +16,6 @@
         <h2 class="head">Form playground</h2>     
         <form action ="https://dev.cotenfrontend.pl" method="POST" class="form">
           <p>
-            <label for="name">Name:</label>
-            <input class="form__item"placeholder="enter your name" name="name" id="name">
-            </p>
-            <p>
-              <label for="riddle">riddle:</label>
-              <input class="form__item"placeholder="enter your name" name="riddle" id="riddle">
-              </p>
-          <p>
           <label for="firstName">first Name:</label>
           <input class="form__item"placeholder="enter your name" name="firstName" id="firstName">
           </p>
@@ -41,14 +33,14 @@
         </p>
         <p>
           <label for="e-mail">e-mail:</label>
-          <input class="form__item" type="e-mail" placeholder="your e-mail" name="e-mail" id="e-mail">
+          <input class="form__item" type="e-mail" placeholder="your e-mail" name="mail" id="mail">
         </p>
         <p>
           <fieldset>
             <legend>Address</legend>
             <p>
             <label for="streetName">street name:</label>
-            <input class="form__item" type="street" placeholder="your street name" name="street name" id="street name">
+            <input class="form__item" type="street" placeholder="your street name" name="street-name" id="street-name">
             </p>
             <p>
               <label for="city">city:</label>
@@ -60,8 +52,19 @@
             <textarea class="form__item" placeholder="your story is .." name="yourStory" id="yourStory" cols="30" rows="10"></textarea>
           </p>
           <p>
-          <fieldset class="form__fieldset">
-            <legend>favourite ice cream</legend>
+            <label for="best music artist">your best music artist</label>
+            <select>
+              <option value="artist-1">Michael Jackson</option>
+              <option value="artist-2">Queen</option>
+              <option value="artist-3">Lady Gaga</option>
+              <option value="artist-3">Weekend</option>
+              <option value="artist-4">Cypis</option>
+              <option value="artist-5">Popek</option>
+            </select>
+          </p>
+          <p>
+            <fieldset class="form__fieldset">
+              <legend>your favourite ice cream</legend>
             <label>
               <input name="iceCream" type="radio" value="chocolate"> chocolate</label>
               <label>
@@ -77,7 +80,12 @@
              <input type="range" name="range" value="range" min="0" max="100" step="10">
           </p>
           <p>
-            <label>           
+            <label>
+              <input type="checkbox" id="iagree"> I agree</input>
+            </label>
+          </p>
+          <p>
+            <label class="check">           
               <input type="submit" value="send">
             </label>
           </p>
